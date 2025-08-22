@@ -1,0 +1,135 @@
+.apartado-titulo {
+    background: linear-gradient(to right, rgb(255, 128, 191), rgb(141, 141, 242));
+    margin-top: 155px;
+}
+
+.descripcion-tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion-tarjeta h6 {
+  font-weight: 600;
+  background: linear-gradient(135deg, rgb(255, 128, 191), #8ea6ff);
+  color: #fff;
+  padding: .25rem .65rem;
+  border-radius: 999px;
+  display: inline-block;
+  margin: .35rem 0 .6rem;
+}
+
+.descripcion-tarjeta p {
+    text-align: justify;
+}
+
+.apartado-historia {
+    background: linear-gradient(to right, rgb(255, 128, 191), rgb(141, 141, 242));
+}
+
+footer {
+     background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: auto;
+}
+
+.apartado-lo-que-nos-mueve button {
+    background-color: rgb(209, 123, 212);
+    margin: 0 auto;
+    border: black 2px solid;
+    color: black;
+}
+
+#navbarSupportedContent a:hover {
+    background-color: #8ea6ff;
+}
+
+.d-flex button {
+    background-color: rgb(255, 128, 191);
+    border: #333 solid 10px;
+}
+.btn{
+  background-color: rgb(207, 120, 189); 
+  border: black 2px solid; 
+  color: black;
+  font-size: 14px;
+  margin-top: 10px;
+}
+header{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      align-items: center;
+      justify-content: space-between;
+      
+    }
+
+    /*cuerpo*/
+    .contenedor-tarjetas h2{
+      font-family: "Days One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 45px;
+      color: #760445;
+
+    }
+
+    .card h4{
+      font-family: "Chela One", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      color: rgb(124, 77, 224);
+
+    }
+
+    .titulo h1{
+      font-family: "Titan One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+
+
+    }
+
+    .titulo p{
+      font-family: "Ysabeau Infant", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 20px;
+   }
+    
+    .subtitulo h2{
+      font-family: "Pacifico", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 40px;
+      color: rgb(90, 1, 125);
+    }
+
+    
+    /*buscador*/
+    
+    .d-flex .btn{
+      border: #6b094c solid 5px;
+      background-color: #6b094c;
+      color: #ffffff;
+    }
+
+    .d-flex .btn:hover{
+      background-color: #f0ccf3;
+      border: #f0ccf3 solid 5px;
+    }
+
+
+    /* Logo */
+    .navbar-brand img {
+      height: 100px;
+      margin-right: 200px;
+      
+      
+    }

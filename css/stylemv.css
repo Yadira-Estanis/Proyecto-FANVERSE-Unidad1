@@ -1,0 +1,284 @@
+/* Paleta de Colores K-pop */
+:root {
+  --kpop-pink: rgb(255, 128, 191);
+  --kpop-blue: rgb(141, 141, 242);
+  --kpop-light-pink: #ffdae7;
+  --kpop-light-blue: #d1d1ff;
+  --kpop-bg: #f7f0f8;
+  --kpop-text: #333;
+  --kpop-accent: #ff4081;
+}
+
+body {
+  font-family: 'Kalam', cursive, sans-serif;
+  color: var(--kpop-text);
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, var(--kpop-pink), var(--kpop-blue));
+  background-attachment: fixed;
+}
+
+/*Encabezado*/
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;   
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.presentacion p{
+  font-family: 'Poppins', sans-serif;
+  margin: 40px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/*buscador*/
+    
+.d-flex .btn{
+  border: #6b094c solid 5px;
+  background-color: #6b094c;
+  color: #ffffff;
+}
+
+.d-flex .btn:hover{
+  background-color: #f0ccf3;
+  border: #f0ccf3 solid 5px;
+}
+
+
+/* Logo */
+.navbar-brand img {
+  height: 100px;
+  margin-right: 200px;
+}
+
+
+/* Efecto de destellos K-pop */
+.sparkle-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+.sparkle {
+  position: absolute;
+  font-size: 1.5rem;
+  line-height: 1;
+  transform: scale(0.5);
+  opacity: 0;
+  animation: bloomAndFade 1.5s forwards;
+  pointer-events: none;
+}
+@keyframes bloomAndFade {
+  0% { transform: scale(0.5); opacity: 0; }
+  50% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+/* Estilo de la ventana principal */
+.y2k-window {
+  width: 90%;
+  max-width: 900px;
+  background-color: #f7f7f7;
+  border: 2px solid #000;
+  border-right: 4px solid #888;
+  border-bottom: 4px solid #888;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-top: 155px;
+}
+
+.window-header {
+  background: linear-gradient(to right, var(--kpop-pink), var(--kpop-blue));
+  border-bottom: 2px solid #000;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.window-title {
+  font-size: 1.2rem;
+}
+
+.window-controls .control-btn {
+  background-color: #e0e0e0;
+  border: 2px solid #000;
+  border-right: 3px solid #666;
+  border-bottom: 3px solid #666;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 1rem;
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.window-content {
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Estilo del logo */
+.logo-area {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px dashed #ccc;
+  padding-bottom: 20px;
+}
+.y2k-logo {
+  max-width: 150px;
+  height: auto;
+}
+
+/* Estilos de las secciones (Tarjetas) */
+.section-card {
+  background-color: var(--kpop-light-pink);
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 0 var(--kpop-light-blue);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, var(--kpop-pink), var(--kpop-blue));
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.card-list li {
+  margin-bottom: 5px;
+}
+
+.pixel-heading {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, var(--kpop-pink), var(--kpop-blue));
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+/* Estilos de la sección de Valores */
+.section-values {
+  background-color: var(--kpop-light-blue);
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 0 var(--kpop-light-pink);
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.value-item {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 0 var(--kpop-pink);
+}
+
+.value-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilos de los botones K-pop */
+.kpop-button {
+  background-color: var(--kpop-pink);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 var(--kpop-blue);
+  transition: all 0.2s ease-in-out;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.kpop-button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--kpop-blue);
+}
+
+.kpop-button.small-button {
+  font-size: 1rem;
+  padding: 8px 15px;
+}
+
+/* Estilos de la sección de Llamada a la Acción */
+.section-cta {
+  background-color: var(--kpop-light-pink);
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 0 var(--kpop-light-blue);
+  text-align: center;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}

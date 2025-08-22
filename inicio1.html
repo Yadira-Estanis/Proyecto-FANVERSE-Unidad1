@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fanverse</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/estilo1.css">
+
+  <!--letra de razon-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+  <!--letra de formulario-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <!--letra de la descripcion de las bandas-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+  <!--letra del titulo-->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!--letra de la presentación-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--letra de los nombres de la banda-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+  <!--letra del titulo de las tarjetas-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+  <!--letra de los subtitulos-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+
+
+
+  
+</head>
+
+<body>
+
+  <!--Encabezado-->
+
+  <header>
+    <!-- Botones principales -->
+  <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="inicio1.html">
+        <img src="multimedia/fanverse-logo.png" alt="Logo">
+        <span></span>
+      </a>
+      <!--buscador-->
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Busca tu mejor álbum">
+        <button class="btn btn-warning" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Menú Tabs -->
+  <ul class="nav nav-tabs justify-content-center bg-light">
+    <li class="nav-item"><a class="nav-link active" href="inicio1.html">INICIO</a></li>
+    <li class="nav-item"><a class="nav-link" href="quienes_somos2.html">¿QUIÉNES SOMOS?</a></li>
+    <li class="nav-item"><a class="nav-link" href="mision.html">MISIÓN Y VISIÓN</a></li>
+    <li class="nav-item"><a class="nav-link" href="contacto4.html">CONTACTANOS</a></li>
+  </ul>
+  </header>
+
+  
+
+  <!-- Presentación -->
+
+  <main>
+    <div class="presentacion">
+     <h1 class="titulo">FANVERSE: donde tu pasión por la música encuentra su lugar</h1>
+     <p>Somos más que una tienda: es el lugar donde los verdaderos fans viven su pasión. Encuentra los álbumes de tus idols favoritos, descubre lanzamientos recientes antes que nadie y haz crecer tu colección con solo unos clics. ¡Explora, vibra y colecciona al ritmo del K-pop!</p>
+  </div>
+  </main>
+  
+
+  <!-- Carusel -->
+  <div id="carouselExample" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="multimedia/grupobts.jpg" class="d-block w-100" alt="BTS">
+      </div>
+      <div class="carousel-item">
+        <img src="multimedia/blackpink.jpg" class="d-block w-100" alt="blackpink">
+      </div>
+      <div class="carousel-item">
+        <img src="multimedia/twice.jpg" class="d-block w-100" alt="twice">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+    
+
+  <!-- Sección Álbumes -->
+  <div class="cuadro">
+     <h2>BANDAS DE K-POP TOP 🏆</h2>
+  </div>
+  <!--categoria-->
+  <div class="categoria">
+     <div class="dropdown">
+         <button class="btn btn-secondary dropdown-toggle"
+           type="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Categoría
+        </button>
+        <ul class="dropdown-menu">
+          <li><button class="dropdown-item" type="button">Pop</button></li>
+
+          <li><button class="dropdown-item" type="button">K-pop</button></li>
+
+          <li><button class="dropdown-item" type="button">Rock</button></li>
+
+         <li><button class="dropdown-item" type="button">Salsa</button></li>
+         <li><button class="dropdown-item" type="button">Reguetón</button></li>
+       </ul>
+     </div>
+  </div>
+
+  <div class="container">
+     <div class="row g-4">
+          <!--  repetido de tarjetas -->
+         <div class="col-12 col-sm-6 col-md-4">
+               <div class="album marron">
+                 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGFsa2g2MGVpOGt5dDR3NWFyeHhseDUxeWhjcmhid2sxMmY5aXo5NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CLhMG06HSUoMiZ1PXB/giphy.gif" alt="Album">
+                 <h3>BTS</h3>
+                 <p class="banda">BTS canta enérgicas canciones de pop con mensajes de confianza y superación, perfectas para animarte a perseguir tus sueños</p>
+
+                 
+                   <a href="bts.html"
+                   class="btn bts" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x:.5rem; --bs-btn-font-size:.75rem">
+                   <b>INGRESA</b>
+                   </a>
+                 
+
+                </div>
+         
+            </div>
+
+         <div class="col-12 col-sm-6 col-md-4">
+             <div class="album rosa">
+                 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmxnbjZ0ZmRjbjhiZncyeDFoN256eWVsbTIzNTd1NjdtNnQ0dXltZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT3i1cvbSQSXENS9rO/giphy.gif" alt="Album">
+                 <h3>BLACKPINK</h3>
+                 <p class="banda">Conocidas por su estilo poderoso. Fusionan pop, dance con toques de hip-hop, y cantan sobre confianza, independencia y empoderamiento</p>
+
+                   <a href="blackpink.html"
+                   class="btn btn-dark blackpink" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x:.5rem; --bs-btn-font-size:.75rem">
+                   <b>INGRESA</b>
+                   </a>
+                 
+
+             </div>
+         </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+              <div class="album amarrillo">
+                 <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW85dTZiMnZ6NWFxdnduc3h1ejRwazBkczcwZzkxMHFtM3M1NTNnZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2YWzCwgfB0GJTii4/giphy.gif" alt="Album">
+                 <h3>TWICE</h3>
+                 <p class="banda">Combinan electropop brillante y coreografías con letras sobre amor, autoestima y juventud. Su música transmite pura energía positiva.</p>
+                
+                 <a href="twice.html"
+                   class="btn twice" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x:.5rem; --bs-btn-font-size:.75rem">
+                   <b>INGRESA</b>
+                   </a>
+                 
+                </div>
+         </div>
+
+         <div class="col-12 col-sm-6 col-md-4">
+              <div class="album rojo">
+                 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWZxOHVweG9sZXIyeHc2b3V4emczczJibmQxeTljaW5vbmo0NDZncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/34McE64PE0ypRpMjTf/giphy.gif" alt="Album">
+                 <h3>STRAYKIDS</h3>
+                 <p class="banda">Juventud explosiva que mezcla hip-hop, pop y EDM con letras crudas y coreografías potentes. Hablan de amistad, fuerza interior y superación</p>
+
+                 <a href="straykids.html"
+                   class="btn straykids" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x:.5rem; --bs-btn-font-size:.75rem">
+                   <b>INGRESA</b>
+                  </a>
+                 
+
+             </div>
+         </div>
+
+         <div class="col-12 col-sm-6 col-md-4">
+              <div class="album verde">
+                 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3dxMWxnOTF2bnptdTR0dzB1ZTJzY3dzbndjYnFuM2pnYnljYzBtNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6wrhZgWvxd4yozMQ/giphy.gif" alt="Album">
+                 <h3>SEVENTEEN</h3>
+                 <p class="banda"> Brillan con pop, hip-hop y EDM, coros pegajosos y química explosiva. Sus letras celebran la amistad, el crecimiento y el optimismo.</p>
+
+                 <button type="button" class="seventeen btn btn-luz"
+                   style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    <b>INGRESA</b>
+                 </button>
+
+             </div>
+         </div>
+
+         <div class="col-12 col-sm-6 col-md-4">
+              <div class="album vino">
+                 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXh6bWk2ZzQ5cGNpZTNlZjJvYWZsNjVldTdvZTkxZWhieXJiaWVueiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KkaSMnv6q48mCWx0fg/giphy.gif" alt="Album">
+                 <h3>ITZY</h3>
+                 <p class="banda">Destacan energía con pop vibrante, electropop y dance. Sus letras empoderan con confianza, ritmo acelerado y actitud feroz.</p>
+
+                 <button type="button" class="itzy btn"
+                   style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    <b>INGRESA</b>
+                 </button>
+
+             </div>
+         </div>
+
+
+        </div>
+
+        <div class="cuadro">
+           <h2>¿Por qué Fanverse? Porque tu pasión merece un lugar donde suene fuerte.</h2>
+       </div>
+
+       <div class="cotainer">
+           <div class="row g-4">
+               <div class="col-12 col-sm col-md-4">
+                 <div class="album2 corazon">
+                   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2FtdnIweTIzbzF6MDVjM21idnI2ZGtpNGw5ZHFqNHVyNTkxZXh3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9ZQ/lRXY41yFFi9RfNXyPN/giphy.gif" alt="emojiojosdecorazon">
+                    <h3>ACCESO A LANZAMIENTOS RECIENTES</h3>
+                    <p class="razon">Puedes adquirir álbumes apenas salen al mercado, sin esperar a que lleguen a tiendas físicas.</p>
+                 </div>
+             </div>
+
+        <div class="col-12 col-sm col-md-4">
+            <div class="album2 rosado">
+                <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXd1Z3dod3J3bWE5dnJ4ZXhkYnFnemt4eXlmZzAwNXM1eGhibG1mOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9ZQ/TGXoYOYmVQ9v6M3g1q/giphy.gif" alt="emojicorazon">
+                <h3>RECOMENDACIONES PERSONALIZADAS</h3>
+                <p class="razon">Basadas en tus gustos musicales, para descubrir nuevos artistas o álbumes.</p>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm col-md-4">
+            <div class="album2 pulgar">
+                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ29jdGlrZnpxbjR4MHBiN3l3cGhmeDNsNTNzc3Ixc3BuaWxneWQ1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/UOQIdYsMcjcuzuUwNZ/giphy.gif" alt="emojipulgar">
+                <h3>SEGURIDAD EN EL PROCESO DE PAGO</h3>
+                <p class="razon">Métodos de pago confiables y protegidos para una experiencia sin preocupaciones.</p>
+            </div>
+        </div>
+
+    </div>
+   </div>
+
+  </div>
+
+  <!--formulario-->
+
+  <div class="forms">
+    <div class="texto">
+      <h1 class="formulario">¿Preparado para vivir el ritmo con Fanverse?</h1>
+      <p>Fanverse no es solo una tienda, es el backstage de tu corazón K-pop. ¡Únete y colecciona momentos que suenan a tu ritmo!</p>
+    </div>
+
+    <div class="container star">
+      <form>
+      
+      <h2>Crea tu cuenta🤩</h2>
+
+      <div class="mb-3 w-5">
+
+        <label for="inputname" class="form-label">Nombre completo</label>
+        <input type="name" class="form-control"
+        id="inputname" aria-describedby="namehelp">
+        <div id="namehelp" class="form-text"></div>
+
+        <label for="inputname" class="form-label">Apellido completo</label>
+        <input type="name" class="form-control"
+        id="inputname" aria-describedby="namehelp">
+        <div id="namehelp" class="form-text"></div>
+
+
+       <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+     </div>
+
+     <div class="mb-3">
+       <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+       <input type="password" class="form-control" id="exampleInputPassword1">
+     </div>
+
+     <div class="mb-3 form-check">
+       <input type="checkbox" class="form-check-input" id="exampleCheck1">
+       <label class="form-check-label" for="exampleCheck1">Acepta términos y condiciones</label>
+     </div>
+
+      <button type="submit" class="btn btn-primary">Crear</button>
+   </form>
+    </div>
+
+    
+
+  </div>
+
+
+  
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Tienda de Álbumes - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

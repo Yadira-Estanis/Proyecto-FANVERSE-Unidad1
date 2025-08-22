@@ -1,0 +1,122 @@
+body {
+ margin: 0;
+ padding: 0;
+ min-height: 100vh;
+ background-color: #ffdba2;
+ display: flex;
+ flex-direction: column;
+ border: #000000 10px;
+ font-family: Arial, sans-serif;
+}
+
+/*Encabezado*/
+
+header{
+ background-color: rgba(255, 170, 213, 0.5);
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ z-index: 1000;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 10px;
+ border: rgb(238, 47, 47)  5px;  
+      
+}
+
+
+.navbar-brand img {
+ height: 100px;
+ margin-right: 200px;
+ margin-left: 20px;
+ display: block;
+ margin: 0 auto;
+}
+
+
+
+    
+/*boton del carrito*/
+    
+.btn{
+    border: #000000 solid 5px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.btn:hover{
+ background-color: #f0ccf3;
+ border: #f0ccf3 solid 5px;
+}
+
+/*Cuerpo*/
+ 
+.apartado-tarjeta {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  border: rgb(0, 0, 0) solid 2px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+
+
+/*Tarjetas de los discos*/
+
+.album {
+ background-color: #fad48280;
+ border-radius: 10px;
+ padding: 1rem;
+ text-align: center;
+ box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+ transition: transform 0.2s ease;
+}
+
+.album:hover {
+ transform: scale(1.03);
+ background-color: rgba(255, 222, 177, 0.5);
+}
+    
+.album img {
+ width: 100%;
+ border-radius: 10px;
+}
+
+/*boton del precio*/
+
+.precio{
+ border: 10px rgb(237, 144, 68) solid;
+ border-radius: 5px;
+ background-color: rgb(237, 144, 68);
+ color: #ffffff;
+ margin-right: 10px;
+}
+
+
+/*letra de los albunes*/
+.album h4{
+ font-family: "Madimi One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ font-family: "Chela One", system-ui;
+ font-weight: 400;
+ font-style: normal;
+ color: black;
+}
+
+  
+
+/*Footer*/
+footer {
+ background: #333;
+ color: white;
+ text-align: center;
+ padding: 1rem;
+ margin-top: auto;
+}

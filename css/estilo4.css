@@ -1,0 +1,115 @@
+body {
+ margin: 0;
+ padding: 0;
+ min-height: 100vh;
+ background: linear-gradient(to right, rgb(255, 128, 191), rgb(141, 141, 242));
+ display: flex;
+ flex-direction: column;
+ font-family: Arial, sans-serif;
+}
+
+/*Encabezado*/
+
+header{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ z-index: 1000;
+ align-items: center;
+ justify-content: space-between;
+      
+}
+
+.titulo{
+ font-family: "Coiny", system-ui;
+ font-weight: 400;
+ font-style: normal;
+ color: rgb(113, 4, 91);
+ font-size: 50px;
+}
+
+.presentacion p{
+ font-family: "Averia Gruesa Libre", system-ui;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 20px;
+ 
+}
+
+/*buscador*/
+    
+.d-flex .btn{
+ border: #6b094c solid 5px;
+ background-color: #6b094c;
+ color: #ffffff;
+}
+
+.d-flex .btn:hover{
+ background-color: #f0ccf3;
+ border: #f0ccf3 solid 5px;
+}
+
+
+/* Logo */
+.navbar-brand img {
+ height: 100px;
+ margin-right: 200px;
+      
+}
+
+.container p{
+ font-family: "Averia Gruesa Libre", system-ui;
+ font-weight: 400;
+ font-style: normal;
+}
+    
+
+.apartado-contacto {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 230px;
+}
+
+.apartado-contacto h2 {
+  color: rgb(255, 128, 191);
+  font-weight: bold;
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.gif-jungkook img {
+  max-width: 250px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.btn-contacto{
+  background-color: rgb(255, 128, 191);
+  color: white;
+  border: 2px solid rgb(255, 128, 191);
+  border-radius: 10px;
+}
+
+.btn-contacto:hover {
+  background-color: rgb(141, 141, 242);
+  border: 2px solid rgb(141, 141, 242);
+  border-radius: 10px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
