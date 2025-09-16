@@ -1,11 +1,248 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PlanesPro</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/stylcoti.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Letras planes disponibles-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!--letras del cotizador-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+    <!--letras del calculo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!--link del bootstrap de iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
-    <h1>cotizador</h1>
+
+
+    <!--Encabezado-->
+    <header>
+         <!-- Botones principales -->
+      <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+         <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="multimedia/fanverse-logo.png"alt="Logo">
+               <span></span>
+              </a>
+             <!--buscador-->
+              <form class="d-flex" role="search">
+                 <input class="form-control me-2" type="search"  placeholder="Busca tu mejor álbum">
+                 <button class="btn btn-warning" type="submit">Buscar</button>
+             </form>
+          </div>
+     </nav>
+
+     <!-- Menú Tabs -->
+       <ul class="nav nav-tabs justify-content-center bg-light">
+         <li class="nav-item"><a class="nav-link active" href="index.html">INICIO</a></li>
+         <li class="nav-item"><a class="nav-link" href="quienes_somos2.html">¿QUIÉNES SOMOS?</a></li>
+         <li class="nav-item"><a class="nav-link" href="mision.html">MISIÓN Y VISIÓN</a></li>
+         <li class="nav-item"><a class="nav-link" href="contacto4.html">CONTACTANOS</a></li>
+         <li class="nav-item"><a class="nav-link" href="cotizador.html">COTIZADOR</a></li>
+       </ul>
+    </header>
+
+    <!--Planes disponibles-->
+    
+    <div class="contenedorprin">
+      <h1>⚡PLANES DISPONIBLES⚡</h1>
+
+     <div class="container my-4">
+  
+  <div class="row g-4">
+    <div class="col-12 col-md-4">
+      <div class="plan p-3 border rounded shadow-sm">
+        <h3>PLAN ESTUDIANTE 🎓✨</h3>
+        <p>¡Para los más dedicados!</p>
+        <ul>
+          <li><b>🎤Descuento fijo</b>: 5% de descuento en todas todas las compras de álbumnes y mercaderia</li>
+          <li><b>🎤Acceso anticipado</b>:Preventa de un álbum por mes, 12 horas antes que el público general</li>
+          <li><b>🎤Sorteos exclusivos</b>:Participación en sorteos trimestrales para ganar photocards exclusivos y posters firmados</li>
+          <li><b>🎤Newsletter especial</b>:Recibe en tu correo un resumen semanal con las últimas noticias de comebacks  y anuncios</li>
+          <li><b>🎤Atención al cliente:</b>Soporte prioritario para resolver cualquier duda o inconveniente.</li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <div class="plan p-3 border rounded shadow-sm">
+        <h3>PLAN CON AMIGOS 👥✨</h3>
+        <p>Perfecto para compartir la pasión.</p>
+        <ul>
+          <li><b>🎤Descuento en grupo: </b>: 10% de descuento en TODAS las compras para cada miembro del grupo</li>
+          <li><b>🎤Preventas coordinadas: </b>Acceso a preventas 18 horas antes que el público general.</li>
+          <li><b>🎤Sorteos especiales:</b>:Participación en sorteos exclusivos de álbumes firmados o paquetes de mercancía para todo el grupo.</li>
+          <li><b>🎤Un regalo sorpresa cada 3 meses:</b>:El grupo recibirá un box especial con artículos de un grupo sorpresa.</li>
+          <li><b>🎤Atención al cliente:</b>Soporte prioritario para resolver cualquier duda o inconveniente.</li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <div class="plan p-3 border rounded shadow-sm">
+        <h3>PLAN VIP 👑✨</h3>
+        <p>La experiencia definitiva.</p>
+        <ul>
+          <li><b>🎤Descuento superior: </b>: 15% de descuento en TODAS las compras.</li>
+          <li><b>🎤Acceso prioritario:</b>A todas las preventas de álbumes y mercancía oficial 24 horas antes que el público general.</li>
+          <li><b>🎤Photocard Exclusiva:</b></b>:Recibe una photocard de edición limitada con cada compra de un álbum en preventa</li>
+           <li><b>🎤Envío gratis:</b>En todos los pedidos superiores a S/50.</li>
+           <li><b>🎤Atención al cliente:</b>Soporte prioritario para resolver cualquier duda o inconveniente.</li>
+            <li><b>🎤Invitaciones a eventos virtuales:</b>En todos los pedidos superiores a S/100.</li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+ </div>
+      
+<!--cotizador-->
+    <div class="contenedor">
+        <div class="configura">
+         <h2>Configura tu plan</h2>
+         <form id="Form" action="">
+             <label for="">Selecciona tu plan:</label>
+            <select  class="botonc" id="plan" required>
+                 <option value="">--Selecciona--</option>
+                 <option value="estudiante">Plan Estudiante S/50.00</option>
+                 <option value="amigo">Plan Amigos S/70</option>
+                 <option value="vips">Plan Vip S/120</option>
+             </select>
+             <br><br>
+
+             <label for="">Duracion del plan:</label>
+             <select class="botonc" name="" id="duracion" required>
+                 <option value="">--Selecciona--</option>
+                 <option value="1">1 mes (0% descuento)</option>
+                 <option value="6">6 meses(20% descuento)</option>
+                 <option value="12">12 meses (40% descuento)</option>
+             </select>
+             <br><br>
+
+             <label  for="">Número de personas:</label><br>
+             <input class="botonc" id="estudiantes" type="number" value="1" min="1" max="5">
+             <br><br>
+             <label for="correo">Email para cotización detallada:</label>
+             <input class="botonc" type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+             <br>
+             <!--min, para que sea el numero minimo de las opciones y maximo para que sea el numero maximo de las opciones-->
+             <br>
+             <div class=" boton d-grid gap-2">
+              <button class="btn btn-warning" type="submit">Enviar cotización detallada</button>
+             </div>
+             <img src="https://i.gifer.com/VeC.gif" alt="graciasgif" width="80%">
+         </form>
+         
+
+        </div>
+
+
+
+        
+        <div class="beneficios" > <!--Div de derecha-->
+            <!--Plan estudiantil-->
+            <div class="info">
+              <h2>Resumen de tu plan</h2>
+            <div id="planes">
+                <div id="planEstudiante">
+                    <p>Ventajas que te harán gritar ¡bias alert! 💥</p>
+                    <ul>
+                     <li><b>✅Descuento fijo</b></li>
+                     <li><b>✅Acceso anticipado</b></li>
+                     <li><b>✅Sorteos exclusivos</b></li>
+                     <li><b>✅Newsletter especial</b></li>
+                     <li><b>✅Envio gratis</b></li>
+                
+                    </ul>
+                </div>
+
+
+            </div>  
+            </div>
+            
+
+    
+            
+
+            <div class="calculo" id="resultado">
+                <p>💸 <b>Precio mensual:</b> S/0.00</p>
+                <p>🎉 <b>Descuento aplicado: </b>S/0.00</p>
+                <p>💲<b> Con descuento:</b>S/0.00</p>
+                <p><b>👥Personas</b>:0</p>
+                <p>⏳<b>Duracion:</b> 0 meses</p>
+                <div  class="total" >
+                 <p>🧾Total a pagar: <b>S/0.00</b></p> 
+                 <p>💰Ahorro estimado:<b>S/0.00</b></p>   
+                </div>
+
+                
+            </div>
+
+    
+
+        </div>
+    </div>
+
+
+
+
+<!-- Footer -->
+ <footer class="bg-dark text-light text-center py-4 mt-5">
+  <div class="container">
+    
+    <h5 class="mb-3">Medios de Pago</h5>
+    <div class="row justify-content-center g-3">
+      <div class="col-6 col-sm-3">
+        <i class="fa-brands fa-cc-visa fa-2x"></i>
+        <p class="mb-0">Visa</p>
+      </div>
+      <div class="col-6 col-sm-3">
+        <i class="fa-brands fa-cc-mastercard fa-2x"></i>
+        <p class="mb-0">Mastercard</p>
+      </div>
+      <div class="col-6 col-sm-3">
+        <i class="fa-brands fa-cc-paypal fa-2x"></i>
+        <p class="mb-0">PayPal</p>
+      </div>
+      <div class="col-6 col-sm-3">
+        <i class="fa-solid fa-money-bill-wave fa-2x"></i>
+        <p class="mb-0">Transferencia</p>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+  <footer>
+     <p class="mb-2">&copy; 2025 Tienda de Álbumes - Todos los derechos reservados</p>
+  </footer>
+
+    <script src="script/scriptCoti.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+ <!-- Botón flotante (inicialmente oculto) -->
+ <button id="mensajeFlotante" type="button" class="floating-btn btn btn-success" aria-live="polite" aria-hidden="true">
+  ✅ Tu plan será enviado al email registrado para confirmar
+ </button>
+
+
 </body>
 </html>

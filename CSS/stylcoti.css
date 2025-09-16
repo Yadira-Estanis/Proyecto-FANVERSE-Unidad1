@@ -1,0 +1,258 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    
+    
+
+}
+body {
+ margin: 0;
+ padding: 0;
+ min-height: 100vh;
+ background: linear-gradient(to right, rgb(255, 128, 191), rgb(141, 141, 242));
+ display: flex;
+ flex-direction: column;
+ font-family: Arial, sans-serif;
+}
+
+/*Encabezado*/
+
+header{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ z-index: 1000;
+ align-items: center;
+ justify-content: space-between;
+      
+}
+
+.titulo{
+ font-family: "Coiny", system-ui;
+ font-weight: 400;
+ font-style: normal;
+ color: rgb(113, 4, 91);
+ font-size: 50px;
+}
+
+.presentacion p{
+ font-family: "Averia Gruesa Libre", system-ui;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 20px;
+ 
+}
+
+/*buscador*/
+    
+.d-flex .btn{
+ border: #6b094c solid 5px;
+ background-color: #6b094c;
+ color: #ffffff;
+}
+
+.d-flex .btn:hover{
+ background-color: #f0ccf3;
+ border: #f0ccf3 solid 5px;
+}
+
+
+/* Logo */
+.navbar-brand img {
+ height: 100px;
+ margin-right: 200px;
+      
+}
+
+.container p{
+ font-family: "Averia Gruesa Libre", system-ui;
+ font-weight: 400;
+ font-style: normal;
+}
+   
+/*planes*/
+.contenedorprin{
+   
+    margin: 150px 30px 30px 30px;
+}
+
+.contenedorprin h1{
+    
+    text-align: center;
+   font-family: "Bungee", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #ffffff;
+   margin-top: 60px;
+}
+.contenedorprin h3{
+    text-align: center;
+    
+}
+.contenedorprin h4{
+    text-align: center;
+    border: #6b094c 10px solid;
+}
+.planes {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.plan {
+    flex: 1;
+    border: 10px solid #091309;
+    border-radius: 20px;
+    padding: 15px;
+    background-color:  rgba(255, 249, 249, 0.595);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px 20px 20px 20px;
+    padding: -20px;
+}
+.plan {
+  background: #fbfbfb;
+  transition: transform 0.2s;
+}
+.plan:hover {
+  transform: scale(1.03);
+  background-color: #eaea5ec4;
+}
+/*letras del cotizador*/
+.plan h3 {
+  margin-top: 0;
+  color: #b67112;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.info h2{
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+}
+.configura h2{
+ font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+}
+
+.configura{
+    background:  rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    border: #000000 1px solid;
+    margin-top: 20px;
+    margin-right: -20px;
+    margin-bottom: 150px;
+    
+}
+
+.boton .btn{
+  color: #ffffff;
+  background-color: #660960;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+
+}
+
+
+
+.beneficios{
+    border: solid rgb(0, 0, 0) 1px;
+    background-color:  rgba(255, 255, 255, 0.1);
+    margin: 20px 20px 150px 20px;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.calculo{
+    
+    border-radius: 15px;
+    background-color: rgb(161, 99, 168);
+    margin: 20px 20px 5px 5px;
+    padding: 10px 10px 10px 10px;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+
+}
+.total{
+    border: #091309 solid 2px;
+    border-radius: 8px;
+    background-color: #430b3f;
+    color: #ffffff;
+}
+
+.info{
+    border: yellow 10px ;
+    
+}
+
+.botonc{
+    border: red 10px ;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Estilos del botón flotante */
+.floating-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: none; /* oculto al inicio */
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  align-items: center;
+  gap: 8px;
+  max-width: 90%;
+  white-space: normal; /* permite varias líneas si el texto es largo */
+  text-align: left;
+}
+
+/* Clase visible */
+.floating-btn.show {
+  display: inline-flex;
+  animation: floatUp 350ms ease-out;
+}
+
+/* Animación */
+@keyframes floatUp {
+  from { transform: translateY(15px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .floating-btn {
+    bottom: 12px;
+    right: 12px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+}
+
+
+
+footer {
+  background: #1c1e1c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
