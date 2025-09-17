@@ -1,0 +1,115 @@
+.section-feedback {
+    background-color: var(--kpop-light-blue);
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 0 var(--kpop-light-pink);
+    text-align: center;
+}
+
+.feedback-intro {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.feedback-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Más espacio entre secciones */
+}
+
+.form-section {
+    padding: 15px;
+    border: 2px solid var(--kpop-blue);
+    border-radius: 10px;
+    background-color: var(--kpop-bg);
+    box-shadow: 3px 3px 0 var(--kpop-pink);
+}
+
+.form-title {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.2rem;
+    color: var(--kpop-blue);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-title i {
+    color: var(--kpop-pink);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--kpop-text);
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: 'Kalam', cursive, sans-serif;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--kpop-blue);
+    box-shadow: 2px 2px 0 var(--kpop-pink);
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.radio-group input[type="radio"] {
+    display: none;
+}
+
+.radio-group label {
+    cursor: pointer;
+    font-weight: normal;
+    padding: 8px 15px;
+    border: 2px solid var(--kpop-blue);
+    border-radius: 20px;
+    background-color: var(--kpop-light-blue);
+    transition: all 0.2s ease;
+    margin: 0;
+}
+
+.radio-group input[type="radio"]:checked + label {
+    background-color: var(--kpop-blue);
+    color: #fff;
+    box-shadow: 2px 2px 0 var(--kpop-pink);
+}
+
+.feedback-form .kpop-button {
+    margin-top: 20px;
+    align-self: center;
+}
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}

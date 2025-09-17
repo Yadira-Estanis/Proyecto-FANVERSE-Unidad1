@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback - Fanverse</title>
+    <link rel="stylesheet" href="CSS/stylemv.css">
+    <link rel="stylesheet" href="CSS/form-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="y2k-window">
+        <div class="window-header">
+            <div class="window-title">✨ Tu Opinión Estrella ✨</div>
+            <div class="window-controls">
+                <button class="control-btn minimize">-</button>
+                <button class="control-btn maximize">⬜</button>
+                <button class="control-btn close">❌</button>
+            </div>
+        </div>
+
+        <div class="window-content">
+            <section class="section-feedback">
+                <h2 class="pixel-heading">¡Queremos escucharte, fan! 🎵</h2>
+                <p class="card-text feedback-intro">Ayúdanos a mejorar tu experiencia en Fanverse. Tu voz es la melodía que guía nuestro próximo paso. Por favor, cuéntanos sobre tu último pedido.</p>
+
+                <div class="feedback-container">
+                    <form class="feedback-form">
+
+                        <div class="form-section">
+                            <h3 class="form-title"><i class="fas fa-shopping-bag"></i> Sobre tu último pedido</h3>
+                            
+                            <div class="form-group">
+                                <label for="pedido-id">ID de tu pedido (opcional):</label>
+                                <input type="text" id="pedido-id" name="pedido-id" class="form-control" placeholder="Ej: #12345">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="fecha-pedido">Fecha de tu pedido:</label>
+                                <input type="date" id="fecha-pedido" name="fecha-pedido" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="calidad">¿Cómo calificarías la calidad de los productos?</label>
+                                <select id="calidad" name="calidad" class="form-control">
+                                    <option value="" disabled selected>Selecciona una opción</option>
+                                    <option value="excelente">🤩 ¡Fantástica!</option>
+                                    <option value="buena">👍 Muy buena</option>
+                                    <option value="regular">😐 Regular</option>
+                                    <option value="mala">👎 Podría mejorar</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <h3 class="form-title"><i class="fas fa-star-half-stroke"></i> Tu experiencia con Fanverse</h3>
+
+                            <div class="form-group">
+                                <label for="navegacion">¿Fue fácil navegar por nuestra página?</label>
+                                <div class="radio-group">
+                                    <input type="radio" id="navegacion-si" name="navegacion" value="si">
+                                    <label for="navegacion-si">Sí, muy fácil</label>
+                                    <input type="radio" id="navegacion-no" name="navegacion" value="no">
+                                    <label for="navegacion-no">No, fue complicado</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="atencion">¿Cómo calificarías nuestra atención al cliente?</label>
+                                <div class="radio-group">
+                                    <input type="radio" id="atencion-si" name="atencion" value="si">
+                                    <label for="atencion-si">Excelente</label>
+                                    <input type="radio" id="atencion-no" name="atencion" value="no">
+                                    <label for="atencion-no">Regular</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="form-section">
+                            <h3 class="form-title"><i class="fas fa-lightbulb"></i> ¡Ideas para el futuro!</h3>
+
+                            <div class="form-group">
+                                <label for="sugerencias">¿Qué productos te gustaría que tuviéramos?</label>
+                                <textarea id="sugerencias" name="sugerencias" rows="3" class="form-control" placeholder="Ej: Lightsticks, ropa oficial, photocards..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="comentario">Comparte cualquier otro comentario o sugerencia:</label>
+                                <textarea id="comentario" name="comentario" rows="4" class="form-control" placeholder="¡Aquí puedes contarnos lo que quieras!"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-buttons">
+                            <button type="submit" class="kpop-button">¡Enviar Feedback!</button>
+                            <a href="index.html" style="text-decoration: none;">
+                                <button type="button" class="kpop-button back-button">Volver al inicio</button>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
